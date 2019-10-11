@@ -30,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background-color: #ededed
 }
 ol, ul {
 	list-style: none;
@@ -72,11 +73,11 @@ nav div {
 }
 
 .background {
-    width: 100%
+    width: 100%;
 }
 
 .intro {
-    margin-top: -55%;
+    margin-top: -32%;
     color: #ebe8e8;
     outline: 2px #2e2d2d;
     font-size: 8vw;
@@ -92,3 +93,25 @@ nav div {
     font-size: 6vw
 }
 
+.nav2 {
+    margin-top: 17.65%
+}
+
+.portrait {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 25%
+}
+
+.bio {
+    display: flex
+}
+
+.bioText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left:50px;
+    margin-right: 300px;
+}
