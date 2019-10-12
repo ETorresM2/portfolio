@@ -201,6 +201,7 @@ nav div {
 
 @media (max-width: 1120px) {
   .intro {
+    background-image: url("./img/mobileBackground.jpg");
     padding: 0;
     display: flex;
     flex-flow: column;
