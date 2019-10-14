@@ -176,8 +176,8 @@ nav div {
 .portrait {
   margin-top: 50px;
   margin-left: 50px;
-  max-width:500px;
-  max-height:500px;
+  max-width: 500px;
+  max-height: 500px;
   height: auto;
 }
 
@@ -201,6 +201,7 @@ nav div {
 
 @media (max-width: 1120px) {
   .intro {
+    height: 1800px;
     background-image: url("./img/mobileBackground.jpg");
     padding: 0;
     display: flex;
