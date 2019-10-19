@@ -202,6 +202,10 @@ nav div {
   display: none;
 }
 
+.mobileNav {
+  display: none;
+}
+
 
 
 .open {
@@ -245,6 +249,62 @@ nav div {
   color: white;
 }
 
+.hidden {
+  display: none;
+}
+
+.projects {
+  height: 800px;
+  border: 1px solid red;
+  margin: 25px 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("./img/projects\ backround.jpg"); 
+  background-size: cover;
+}
+
+.project {
+  display: flex;
+  border: 1px solid black;
+  height: 20%;
+  width: 70%;
+  background-image: url(./img/photo_2019-10-18_22-13-02.jpg);
+}
+
+.project h1 {
+  display: flex;
+  border: 1px solid black;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.project p {
+  display: flex;
+  border: 1px solid black;
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+}
+
+.moreButton {
+  width: 90%;
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.odd {
+  margin-left: 50px;
+}
+
+.even {
+  margin-right: 50px;
+}
+
+
 @media (max-width: 1120px) {
   nav {
     display: none
@@ -286,8 +346,5 @@ nav div {
     opacity: .25;
     color: white;
   }
-}
-.hidden {
-  display: none;
 }
 
