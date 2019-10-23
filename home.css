@@ -273,13 +273,34 @@ nav div {
   width: 70%;
 }
 
-.project h1 {
+.odd {
+  margin-left: 50px;
+}
+
+.even {
+  margin-right: 50px;
+}
+.odd h1 {
   background-image: url(./img/photo_2019-10-18_22-13-02.jpg);
   display: flex;
-  border: 1px solid black;
+  border-left: 1px solid black;
   width: 25%;
   justify-content: center;
   align-items: center;
+  font-size: 2em;
+
+}
+
+.even h1 {
+  background-image: url(./img/photo_2019-10-18_22-13-02.jpg);
+  display: flex;
+  border-right: 1px solid black;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+
+
 }
 
 .project p {
@@ -297,13 +318,55 @@ nav div {
   justify-content: center;
 }
 
-.odd {
-  margin-left: 50px;
+.cta {
+  border: 1px solid black;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
 }
 
-.even {
-  margin-right: 50px;
+.block {
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
 }
+
+.learnMore {
+  height: 50%;
+  flex-flow: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+
+}
+
+.learnMore div {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  border-top: 1px solid red;
+}
+
+.icons {
+  font-size: 1.5rem
+}
+
+.learnMore h1 {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 4em
+  
+}
+
+.contact{
+  border: 1px solid black;
+}
+
 
 
 @media (max-width: 1120px) {
