@@ -186,6 +186,15 @@ nav div {
   line-height: 2rem;
 }
 
+
+.bio ul {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.bio li {
+  font-size: 1.25rem
+}
+
 .bioText {
   display: flex;
   flex-direction: column;
@@ -198,6 +207,7 @@ nav div {
   font-size: 2em;
 }
 .bioText p {
+  font-size: 1.5rem;
   margin-top: 75px;
 }
 .mobileNavButton {
@@ -257,8 +267,7 @@ nav div {
 
 .projects {
   color: #32289B;
-  height: 800px;
-  border-top: 25px solid #2e2d2d;
+  height: 1000px;
   margin-top: 25px;
   display: flex;
   flex-flow: column;
@@ -266,6 +275,12 @@ nav div {
   align-items: center;
   background-color: #3066BE;
   background-size: cover;
+}
+
+.projects h1 {
+  margin-top:15px;
+  margin-bottom: 15px;
+  font-size: 3rem;
 }
 
 .project {
@@ -322,7 +337,6 @@ nav div {
 
 .cta {
   color:#119DA4;
-  border: 1px solid black;
   height: 950px;
   display: flex;
   justify-content: center;
@@ -368,6 +382,15 @@ nav div {
   
 }
 
+.learnMore a {
+  color:#119DA4;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  font-size: 4em
+  
+}
+
 .contact{
   display: flex;
   flex-flow: column;
@@ -377,7 +400,7 @@ nav div {
   height: 50%;
 }
 
-.contact h1 {
+.contact a {
   font-size: 4em
 }
 
