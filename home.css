@@ -201,7 +201,7 @@ nav div {
   margin-top: 50px;
   margin-left: 10%;
   margin-right: 15%;
-  height: 800px;
+  height: 900px;
 }
 .bioText h1 {
   font-size: 2em;
@@ -331,8 +331,22 @@ nav div {
 .moreButton {
   width: 90%;
   display: flex;
-  border: .5px solid black;
   justify-content: center;
+
+}
+
+button {
+  border: none;
+  background-color: #6D9DC5;
+  width: 100%;
+  height: 75px;
+  font-size: 2rem;
+  color: #32289B
+
+}
+
+.moreButton :hover {
+  cursor: pointer;
 }
 
 .cta {
