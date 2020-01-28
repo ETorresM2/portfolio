@@ -335,13 +335,15 @@ nav div {
 
 }
 
-button {
+.moreButton a {
   border: none;
   background-color: #6D9DC5;
   width: 100%;
   height: 75px;
   font-size: 2rem;
-  color: #32289B
+  color: #32289B;
+  display: flex;
+  align-items: center;
 
 }
 
