@@ -8,7 +8,7 @@
     <title>Portfolio</title>
 
     <link href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web" rel="stylesheet">
-    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./projects.css">
 
 
 </head>
@@ -18,9 +18,7 @@
     <nav class="nav">
         <a href=""></a>
         <div>
-            <a id="about" href="">About</a>
-            <a id="projects" href="">Projects</a>
-            <a id="contact" href="">Contact</a>
+            <a id="about" href="home.html">Home</a>
             <a id="github" href="https://github.com/ETorresM2">GitHub</a>
             <a id="linkedin" href="https://www.linkedin.com/in/edwin-torres-jr/">LinkedIn</a>
         </div>
@@ -30,47 +28,33 @@
             <p>Close</p>
         </div>
         <div class="navButtons">
-            <a href="">About</a>
-            <a href="">Projects</a>
-            <a href="">Contact</a>
-            <a href="">GitHub</a>
-            <a href="">LinkedIn</a>
+            <a href="home.html">Home</a>
+            <a href="https://github.com/ETorresM2">GitHub</a>
+            <a href="https://www.linkedin.com/in/edwin-torres-jr/">LinkedIn</a>
         </div>
     </nav>
     <div class="mobileNavButton">
         <p>Menu</p>
+    </div>
 
-    
     <div class="projects">
         <h1>Projects</h1>
-        <div class="project even">
-            <h1>React Messaging App</h1>
-            <p>Messaging browser app using React for the client, users can create accounts and add other users as
-                contacts. They can send and receive messages in real time. Account security is ensured via password
-                encryption using Bcrypt, and endpoints are protected using sessions, CORS is used to add a further level
-                of security to the app.
-                Real time messsaging is handled through Pusher, an API that is used in the front and back end to allow
-                real-time communication by utilizing web sockets.
-            </p>
-
+        <div class="projectWrapper">
+            <div class="projectCard"><h1>Head</h1> <p>Description</p></div>
+            <div class="projectCard"><h1>Head</h1> <p>Description</p></div>
+            <div class="projectCard"><h1>Head</h1> <p>Description</p></div>
+            <div class="projectCard"><h1>Head</h1> <p>Description</p></div>
+            <div class="projectCard"><h1>Head</h1> <p>Description</p></div>
+            <div class="projectCard"><h1>Head</h1> <p>Description</p></div>
+            <div class="projectCard"><h1>Head</h1> <p>Description</p></div>
+            <div class="projectCard"><h1>Head</h1> <p>Description</p></div>
+            <div class="projectCard"><h1>Head</h1> <p>Description</p></div>
+            <div class="projectCard"><h1>Head</h1> <p>Description</p></div>
         </div>
-        <div class="project odd">
-            <p> With this application, a user has a place to store notes. Full funcitonality includes the ability to delete, edit, retrieve and create new notes, using a clean and easy to use UI. Lambda Notes is a 2 part project that consists of a backend CRUD API, and a front end client sending and requesting data. Using Axios, the client submits CRUD operations to
-                the back-end.   </p>
-            <h1>Lambda Notes</h1>
-
-
+            <div class="moreButton">
+                <a href="projects.html">Back</a>
+            </div>
         </div>
-        <div class="project even">
-            <h1>S&J Architecture</h1>
-            <p>S&J Architecture is a landing page for a fictional company, this beautiful and modern UI was built to match the provided design files and assets. Some notable features of this 
-                web page include, fully responsive design and mobile version. Its a multi-page website, that uses Javascript for additional funcitonality to provide an engaging and easy to use experience for the user.  </p>
-
-        </div>
-        <div class="moreButton">
-            <a href="projects.html">See more of my projects</a>
-        </div>
-    </div>
     </div>
     <script src="./home.js"></script>
 </body>
