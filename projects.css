@@ -89,7 +89,7 @@
 
         </div>
         <div class="project odd">
-            <p> With this application, a user has a place to store notes. Full functionality includes the ability to delete, edit, retrieve and create new notes, using a clean and easy to use UI. Lambda Notes is a 2 part project that consists of a backend CRUD API, and a front end client sending and requesting data. Using Axios, the client submits CRUD operations to
+            <p> With this application, a user has a place to store notes. Full funcitonality includes the ability to delete, edit, retrieve and create new notes, using a clean and easy to use UI. Lambda Notes is a 2 part project that consists of a backend CRUD API, and a front end client sending and requesting data. Using Axios, the client submits CRUD operations to
                 the back-end.   </p>
             <h1>Lambda Notes</h1>
 
@@ -98,11 +98,11 @@
         <div class="project even">
             <h1>S&J Architecture</h1>
             <p>S&J Architecture is a landing page for a fictional company, this beautiful and modern UI was built to match the provided design files and assets. Some notable features of this 
-                web page include, fully responsive design and mobile version. Its a multi-page website, that uses Javascript for additional functionality to provide an engaging and easy to use experience for the user.  </p>
+                web page include, fully responsive design and mobile version. Its a multi-page website, that uses Javascript for additional funcitonality to provide an engaging and easy to use experience for the user.  </p>
 
         </div>
         <div class="moreButton">
-            <a class="moreButton" href="projects.html">See more of my projects</a>
+            <button>See more of my projects</button>
         </div>
     </div>
     <div class="cta" id="cta">

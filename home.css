@@ -349,6 +349,8 @@ nav div {
 
 .moreButton :hover {
   cursor: pointer;
+  color: #6D9DC5;
+  background-color: #32289B ;
 }
 
 .cta {
